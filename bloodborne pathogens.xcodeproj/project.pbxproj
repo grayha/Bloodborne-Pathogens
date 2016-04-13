@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84799B321CBD2A2500EEE198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84799B311CBD2A2500EEE198 /* AppDelegate.swift */; };
+		84799B341CBD2A2500EEE198 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84799B331CBD2A2500EEE198 /* ViewController.swift */; };
+		84799B371CBD2A2500EEE198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84799B351CBD2A2500EEE198 /* Main.storyboard */; };
+		84799B391CBD2A2500EEE198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84799B381CBD2A2500EEE198 /* Assets.xcassets */; };
+		84799B3C1CBD2A2500EEE198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84799B3A1CBD2A2500EEE198 /* LaunchScreen.storyboard */; };
+		84799B471CBD2A2600EEE198 /* bloodborne_pathogensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84799B461CBD2A2600EEE198 /* bloodborne_pathogensTests.swift */; };
+		84799B521CBD2A2600EEE198 /* bloodborne_pathogensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84799B511CBD2A2600EEE198 /* bloodborne_pathogensUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84799B431CBD2A2600EEE198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84799B261CBD2A2500EEE198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84799B2D1CBD2A2500EEE198;
+			remoteInfo = "bloodborne pathogens";
+		};
+		84799B4E1CBD2A2600EEE198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84799B261CBD2A2500EEE198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84799B2D1CBD2A2500EEE198;
+			remoteInfo = "bloodborne pathogens";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84799B2E1CBD2A2500EEE198 /* bloodborne pathogens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bloodborne pathogens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84799B311CBD2A2500EEE198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84799B331CBD2A2500EEE198 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84799B361CBD2A2500EEE198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84799B381CBD2A2500EEE198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84799B3B1CBD2A2500EEE198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84799B3D1CBD2A2500EEE198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84799B421CBD2A2600EEE198 /* bloodborne pathogensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bloodborne pathogensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84799B461CBD2A2600EEE198 /* bloodborne_pathogensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodborne_pathogensTests.swift; sourceTree = "<group>"; };
+		84799B481CBD2A2600EEE198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84799B4D1CBD2A2600EEE198 /* bloodborne pathogensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bloodborne pathogensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84799B511CBD2A2600EEE198 /* bloodborne_pathogensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodborne_pathogensUITests.swift; sourceTree = "<group>"; };
+		84799B531CBD2A2600EEE198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84799B2B1CBD2A2500EEE198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84799B3F1CBD2A2600EEE198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84799B4A1CBD2A2600EEE198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84799B251CBD2A2500EEE198 = {
+			isa = PBXGroup;
+			children = (
+				84799B301CBD2A2500EEE198 /* bloodborne pathogens */,
+				84799B451CBD2A2600EEE198 /* bloodborne pathogensTests */,
+				84799B501CBD2A2600EEE198 /* bloodborne pathogensUITests */,
+				84799B2F1CBD2A2500EEE198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84799B2F1CBD2A2500EEE198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84799B2E1CBD2A2500EEE198 /* bloodborne pathogens.app */,
+				84799B421CBD2A2600EEE198 /* bloodborne pathogensTests.xctest */,
+				84799B4D1CBD2A2600EEE198 /* bloodborne pathogensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84799B301CBD2A2500EEE198 /* bloodborne pathogens */ = {
+			isa = PBXGroup;
+			children = (
+				84799B311CBD2A2500EEE198 /* AppDelegate.swift */,
+				84799B331CBD2A2500EEE198 /* ViewController.swift */,
+				84799B351CBD2A2500EEE198 /* Main.storyboard */,
+				84799B381CBD2A2500EEE198 /* Assets.xcassets */,
+				84799B3A1CBD2A2500EEE198 /* LaunchScreen.storyboard */,
+				84799B3D1CBD2A2500EEE198 /* Info.plist */,
+			);
+			path = "bloodborne pathogens";
+			sourceTree = "<group>";
+		};
+		84799B451CBD2A2600EEE198 /* bloodborne pathogensTests */ = {
+			isa = PBXGroup;
+			children = (
+				84799B461CBD2A2600EEE198 /* bloodborne_pathogensTests.swift */,
+				84799B481CBD2A2600EEE198 /* Info.plist */,
+			);
+			path = "bloodborne pathogensTests";
+			sourceTree = "<group>";
+		};
+		84799B501CBD2A2600EEE198 /* bloodborne pathogensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84799B511CBD2A2600EEE198 /* bloodborne_pathogensUITests.swift */,
+				84799B531CBD2A2600EEE198 /* Info.plist */,
+			);
+			path = "bloodborne pathogensUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84799B2D1CBD2A2500EEE198 /* bloodborne pathogens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84799B561CBD2A2600EEE198 /* Build configuration list for PBXNativeTarget "bloodborne pathogens" */;
+			buildPhases = (
+				84799B2A1CBD2A2500EEE198 /* Sources */,
+				84799B2B1CBD2A2500EEE198 /* Frameworks */,
+				84799B2C1CBD2A2500EEE198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bloodborne pathogens";
+			productName = "bloodborne pathogens";
+			productReference = 84799B2E1CBD2A2500EEE198 /* bloodborne pathogens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84799B411CBD2A2600EEE198 /* bloodborne pathogensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84799B591CBD2A2600EEE198 /* Build configuration list for PBXNativeTarget "bloodborne pathogensTests" */;
+			buildPhases = (
+				84799B3E1CBD2A2600EEE198 /* Sources */,
+				84799B3F1CBD2A2600EEE198 /* Frameworks */,
+				84799B401CBD2A2600EEE198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84799B441CBD2A2600EEE198 /* PBXTargetDependency */,
+			);
+			name = "bloodborne pathogensTests";
+			productName = "bloodborne pathogensTests";
+			productReference = 84799B421CBD2A2600EEE198 /* bloodborne pathogensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84799B4C1CBD2A2600EEE198 /* bloodborne pathogensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84799B5C1CBD2A2600EEE198 /* Build configuration list for PBXNativeTarget "bloodborne pathogensUITests" */;
+			buildPhases = (
+				84799B491CBD2A2600EEE198 /* Sources */,
+				84799B4A1CBD2A2600EEE198 /* Frameworks */,
+				84799B4B1CBD2A2600EEE198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84799B4F1CBD2A2600EEE198 /* PBXTargetDependency */,
+			);
+			name = "bloodborne pathogensUITests";
+			productName = "bloodborne pathogensUITests";
+			productReference = 84799B4D1CBD2A2600EEE198 /* bloodborne pathogensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84799B261CBD2A2500EEE198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = harrison;
+				TargetAttributes = {
+					84799B2D1CBD2A2500EEE198 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					84799B411CBD2A2600EEE198 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 84799B2D1CBD2A2500EEE198;
+					};
+					84799B4C1CBD2A2600EEE198 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 84799B2D1CBD2A2500EEE198;
+					};
+				};
+			};
+			buildConfigurationList = 84799B291CBD2A2500EEE198 /* Build configuration list for PBXProject "bloodborne pathogens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84799B251CBD2A2500EEE198;
+			productRefGroup = 84799B2F1CBD2A2500EEE198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84799B2D1CBD2A2500EEE198 /* bloodborne pathogens */,
+				84799B411CBD2A2600EEE198 /* bloodborne pathogensTests */,
+				84799B4C1CBD2A2600EEE198 /* bloodborne pathogensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84799B2C1CBD2A2500EEE198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84799B3C1CBD2A2500EEE198 /* LaunchScreen.storyboard in Resources */,
+				84799B391CBD2A2500EEE198 /* Assets.xcassets in Resources */,
+				84799B371CBD2A2500EEE198 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84799B401CBD2A2600EEE198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84799B4B1CBD2A2600EEE198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84799B2A1CBD2A2500EEE198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84799B341CBD2A2500EEE198 /* ViewController.swift in Sources */,
+				84799B321CBD2A2500EEE198 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84799B3E1CBD2A2600EEE198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84799B471CBD2A2600EEE198 /* bloodborne_pathogensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84799B491CBD2A2600EEE198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84799B521CBD2A2600EEE198 /* bloodborne_pathogensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84799B441CBD2A2600EEE198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84799B2D1CBD2A2500EEE198 /* bloodborne pathogens */;
+			targetProxy = 84799B431CBD2A2600EEE198 /* PBXContainerItemProxy */;
+		};
+		84799B4F1CBD2A2600EEE198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84799B2D1CBD2A2500EEE198 /* bloodborne pathogens */;
+			targetProxy = 84799B4E1CBD2A2600EEE198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84799B351CBD2A2500EEE198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84799B361CBD2A2500EEE198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84799B3A1CBD2A2500EEE198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84799B3B1CBD2A2500EEE198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84799B541CBD2A2600EEE198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84799B551CBD2A2600EEE198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84799B571CBD2A2600EEE198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bloodborne pathogens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.bloodborne-pathogens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84799B581CBD2A2600EEE198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bloodborne pathogens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.bloodborne-pathogens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84799B5A1CBD2A2600EEE198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "bloodborne pathogensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.bloodborne-pathogensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bloodborne pathogens.app/bloodborne pathogens";
+			};
+			name = Debug;
+		};
+		84799B5B1CBD2A2600EEE198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "bloodborne pathogensTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.bloodborne-pathogensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bloodborne pathogens.app/bloodborne pathogens";
+			};
+			name = Release;
+		};
+		84799B5D1CBD2A2600EEE198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "bloodborne pathogensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.bloodborne-pathogensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bloodborne pathogens";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84799B5E1CBD2A2600EEE198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "bloodborne pathogensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.ssfs.bloodborne-pathogensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "bloodborne pathogens";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84799B291CBD2A2500EEE198 /* Build configuration list for PBXProject "bloodborne pathogens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84799B541CBD2A2600EEE198 /* Debug */,
+				84799B551CBD2A2600EEE198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84799B561CBD2A2600EEE198 /* Build configuration list for PBXNativeTarget "bloodborne pathogens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84799B571CBD2A2600EEE198 /* Debug */,
+				84799B581CBD2A2600EEE198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84799B591CBD2A2600EEE198 /* Build configuration list for PBXNativeTarget "bloodborne pathogensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84799B5A1CBD2A2600EEE198 /* Debug */,
+				84799B5B1CBD2A2600EEE198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84799B5C1CBD2A2600EEE198 /* Build configuration list for PBXNativeTarget "bloodborne pathogensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84799B5D1CBD2A2600EEE198 /* Debug */,
+				84799B5E1CBD2A2600EEE198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84799B261CBD2A2500EEE198 /* Project object */;
+}
