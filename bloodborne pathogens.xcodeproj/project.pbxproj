@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846BF76F1CE624B900C9C3E2 /* Training Bloodborne pathogens pictures of powerpoint in Resources */ = {isa = PBXBuildFile; fileRef = 846BF76E1CE624B900C9C3E2 /* Training Bloodborne pathogens pictures of powerpoint */; };
 		84799B321CBD2A2500EEE198 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84799B311CBD2A2500EEE198 /* AppDelegate.swift */; };
 		84799B341CBD2A2500EEE198 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84799B331CBD2A2500EEE198 /* ViewController.swift */; };
 		84799B371CBD2A2500EEE198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84799B351CBD2A2500EEE198 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846BF76E1CE624B900C9C3E2 /* Training Bloodborne pathogens pictures of powerpoint */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Training Bloodborne pathogens pictures of powerpoint"; sourceTree = "<group>"; };
 		84799B2E1CBD2A2500EEE198 /* bloodborne pathogens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bloodborne pathogens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84799B311CBD2A2500EEE198 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84799B331CBD2A2500EEE198 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				84799B451CBD2A2600EEE198 /* bloodborne pathogensTests */,
 				84799B501CBD2A2600EEE198 /* bloodborne pathogensUITests */,
 				84799B2F1CBD2A2500EEE198 /* Products */,
+				846BF76E1CE624B900C9C3E2 /* Training Bloodborne pathogens pictures of powerpoint */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,6 +234,7 @@
 			files = (
 				84799B3C1CBD2A2500EEE198 /* LaunchScreen.storyboard in Resources */,
 				84799B391CBD2A2500EEE198 /* Assets.xcassets in Resources */,
+				846BF76F1CE624B900C9C3E2 /* Training Bloodborne pathogens pictures of powerpoint in Resources */,
 				84799B371CBD2A2500EEE198 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				84799B581CBD2A2600EEE198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84799B591CBD2A2600EEE198 /* Build configuration list for PBXNativeTarget "bloodborne pathogensTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				84799B5B1CBD2A2600EEE198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84799B5C1CBD2A2600EEE198 /* Build configuration list for PBXNativeTarget "bloodborne pathogensUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				84799B5E1CBD2A2600EEE198 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
