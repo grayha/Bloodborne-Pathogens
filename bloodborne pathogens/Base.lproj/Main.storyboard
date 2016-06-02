@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wVC-fp-sde">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,11 +17,65 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmd-45-0VC">
+                                <rect key="frame" x="546" y="72" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="nextSlidebuton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FGn-vW-xkz"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JKS-Xb-Eec">
+                                <rect key="frame" x="20" y="110" width="565" height="470"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2TB-it-8va">
+                                <rect key="frame" x="20" y="72" width="59" height="30"/>
+                                <state key="normal" title="Previous"/>
+                                <connections>
+                                    <action selector="lastSlideButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eUA-zY-jqp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="JKS-Xb-Eec" secondAttribute="trailing" constant="-5" id="1bF-Cm-YVz"/>
+                            <constraint firstItem="Qmd-45-0VC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="AqL-IP-M95"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qmd-45-0VC" secondAttribute="trailing" constant="2" id="Bta-Gg-X0f"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="2TB-it-8va" secondAttribute="leading" id="Ftd-KE-vlN"/>
+                            <constraint firstItem="JKS-Xb-Eec" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="SD5-zF-swl"/>
+                            <constraint firstItem="2TB-it-8va" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="nP4-Uh-p8Y"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="JKS-Xb-Eec" secondAttribute="leading" id="pyd-F7-gm8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JKS-Xb-Eec" secondAttribute="bottom" constant="20" id="rae-tU-mbb"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="B3J-dH-zSS"/>
+                    <connections>
+                        <outlet property="nextButton" destination="Qmd-45-0VC" id="Z3z-4c-uAI"/>
+                        <outlet property="previousButton" destination="2TB-it-8va" id="ct9-Yo-wVu"/>
+                        <outlet property="slideFrame" destination="JKS-Xb-Eec" id="ABN-4I-upa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1149" y="1081"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="isz-an-fSh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wVC-fp-sde" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Be-af-N3f">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="B2v-B0-pEx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rqE-Bu-F8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="360" y="1081"/>
         </scene>
     </scenes>
 </document>
