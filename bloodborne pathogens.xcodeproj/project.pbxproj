@@ -15,6 +15,7 @@
 		84799B3C1CBD2A2500EEE198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84799B3A1CBD2A2500EEE198 /* LaunchScreen.storyboard */; };
 		84799B471CBD2A2600EEE198 /* bloodborne_pathogensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84799B461CBD2A2600EEE198 /* bloodborne_pathogensTests.swift */; };
 		84799B521CBD2A2600EEE198 /* bloodborne_pathogensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84799B511CBD2A2600EEE198 /* bloodborne_pathogensUITests.swift */; };
+		8479DDDD1D00663A004B81E5 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8479DDDC1D00663A004B81E5 /* QuizController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		84799B4D1CBD2A2600EEE198 /* bloodborne pathogensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bloodborne pathogensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84799B511CBD2A2600EEE198 /* bloodborne_pathogensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bloodborne_pathogensUITests.swift; sourceTree = "<group>"; };
 		84799B531CBD2A2600EEE198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8479DDDC1D00663A004B81E5 /* QuizController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				84799B311CBD2A2500EEE198 /* AppDelegate.swift */,
 				84799B331CBD2A2500EEE198 /* ViewController.swift */,
 				84799B351CBD2A2500EEE198 /* Main.storyboard */,
+				8479DDDC1D00663A004B81E5 /* QuizController.swift */,
 				84799B381CBD2A2500EEE198 /* Assets.xcassets */,
 				84799B3A1CBD2A2500EEE198 /* LaunchScreen.storyboard */,
 				84799B3D1CBD2A2500EEE198 /* Info.plist */,
@@ -262,6 +265,7 @@
 			files = (
 				84799B341CBD2A2500EEE198 /* ViewController.swift in Sources */,
 				84799B321CBD2A2500EEE198 /* AppDelegate.swift in Sources */,
+				8479DDDD1D00663A004B81E5 /* QuizController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
